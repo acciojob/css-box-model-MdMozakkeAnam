@@ -1,2 +1,19 @@
+.box-model-demo {
+    /* 1. Dimensions */
+    width: 300px;
 
-/* Your CSS Code here. */
+    /* 2. Colors */
+    background-color: lightblue;
+    border: 15px solid blue;
+
+    /* 3. Spacing */
+    padding: 50px;
+    margin: 20px;
+
+    /* Optional: making the text look clean */
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    
+    /* Ensures the width matches the 'content-box' standard often used in tests */
+    box-sizing: content-box;
+}
